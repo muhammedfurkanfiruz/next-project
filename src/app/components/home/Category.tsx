@@ -12,8 +12,8 @@ const Category = () => {
   ];
 
   return (
-    <div className="w-full bg-blue-300 py-3">
-      <div className="flex overflow-x-auto gap-3 px-5 scrollbar-hide">
+    <div className="w-screen py-4">
+      <div className="flex  flex-row justify-between  overflow-x-auto gap-6 py-2 px-6 w-full">
         {categoryList.map((item, index) => (
           <div
             key={index}
